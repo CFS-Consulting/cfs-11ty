@@ -1,0 +1,14 @@
+a,
+button,
+input {
+	@apply focus:outline-none focus-visible:ring focus-visible:ring-primary-dark;
+}
+
+.utility-link {
+	font-size: small;
+	letter-spacing: normal;
+	text-transform: none;
+	padding: 0;
+	text-decoration: underline;
+	background-color: transparent;
+}

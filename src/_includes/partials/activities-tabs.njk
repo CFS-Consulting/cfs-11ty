@@ -1,0 +1,75 @@
+<div 
+    x-data="{
+        selectedId: null,
+        init() {
+            // Set the first available tab on the page on page load.
+            this.$nextTick(() => this.select(this.$id('tab', 1)))
+        },
+        select(id) {
+            this.selectedId = id
+        },
+        isSelected(id) {
+            return this.selectedId === id
+        },
+        whichChild(el, parent) {
+            return Array.from(parent.children).indexOf(el) + 1
+        }
+    }"
+    x-id="['tab']"
+    class="activities"
+>
+    <!-- Tab list -->
+    <ul 
+        x-ref="tablist"
+        @keydown.right.prevent.stop="$focus.wrap().next()"
+        @keydown.home.prevent.stop="$focus.first()"
+        @keydown.page-up.prevent.stop="$focus.first()"
+        @keydown.left.prevent.stop="$focus.wrap().prev()"
+        @keydown.end.prevent.stop="$focus.last()"
+        @keydown.page-down.prevent.stop="$focus.last()"
+        role="tablist"
+        class="tab-list flow"
+    >
+        {% for item in activities %}
+            <!-- Tab -->
+            <li>
+                <button 
+                    :id="$id('tab', whichChild($el.parentElement, $refs.tablist))"
+                    @click="select($el.id)"
+                    @mousedown.prevent
+                    @focus="select($el.id)"
+                    type="button" 
+                    :tabindex="isSelected($el.id) ? 0 : -1"
+                    :aria-selected="isSelected($el.id)"
+                    :class="isSelected($el.id) ? 'text-primary-dark' : ''"
+                    class="tab-label"
+                    role="tab"
+                >
+                    {{ item.short_title | lower }}
+                </button>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <!-- Panels -->
+    <div role="tabpanels" class="relative">
+        {% for item in activities %}
+        <!-- Panel -->
+            <section
+                x-show="isSelected($id('tab', whichChild($el, $el.parentElement)))"
+                x-transition:enter="ease-out duration-1000"
+                x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100"
+                :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
+                role="tabpanel"
+                class="tab-panel relative transition-all flow"
+            >
+                <h2 class="">{{ item.title | lower }}</h2>
+                <div class="flow">
+                    {{ item.body | safe }}
+                </div>
+            </section>
+        {% endfor %}
+    </div>
+</div>
+    

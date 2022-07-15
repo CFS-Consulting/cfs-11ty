@@ -1,0 +1,20 @@
+:root {
+	/* Fonts */
+	--font-header: adorn-roman, sans-serif;
+	--font-body: brevia, sans-serif;
+	--font-emphasis: giulia-plain, sans-serif;
+}
+
+.brand-theme {
+	--color-primary: 37 122 126; /*teal*/
+	--color-primary-light: 242 255 254; /*light teal*/
+	--color-primary-dark: 133 230 225;
+	--color-accent-1: 202.49deg 99.9% 18.46%; /*azure-5*/
+	--color-neutral-1: 194.33deg 0% 96.6%; /*gray-1*/
+	--color-neutral-2: 194.33deg 0% 88.76%; /*gray-2*/
+	--color-neutral-3: 194.33deg 0% 43.69%; /*gray-4*/
+	--color-neutral-4: 194.33deg 0% 24.13%; /*gray-5*/
+	--color-neutral-5: 194.33deg 0% 13.15%; /*gray-6*/
+	--color-white: 360deg 100% 100%;
+	--color-text-neutral: theme("colors.neutral.500");
+}
