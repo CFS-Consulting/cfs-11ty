@@ -74,7 +74,7 @@ a,
 	font-size: smaller;
 	letter-spacing: 0.1em;
 	background-color: theme("colors.primary.DEFAULT" / 10%);
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 0.8rem;
 	border-radius: 0.5rem;
 	transition: background-color 200ms;
 

@@ -9,7 +9,8 @@ module.exports = {
 				dark: "rgb(var(--color-primary-dark) / <alpha-value>)",
 			},
 			accent: {
-				DEFAULT: "hsl(var(--color-accent-1) / <alpha-value>)",
+				1: "rgb(var(--color-accent-1) / <alpha-value>)",
+				2: "rgb(var(--color-accent-2) / <alpha-value>)",
 			},
 			neutral: {
 				100: "hsl(var(--color-neutral-1) / <alpha-value>)",

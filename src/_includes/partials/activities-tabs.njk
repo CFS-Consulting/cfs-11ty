@@ -41,7 +41,7 @@
                     type="button" 
                     :tabindex="isSelected($el.id) ? 0 : -1"
                     :aria-selected="isSelected($el.id)"
-                    :class="isSelected($el.id) ? 'text-primary-dark' : ''"
+                    :class="isSelected($el.id) ? 'text-accent-1' : ''"
                     class="tab-label"
                     role="tab"
                 >
@@ -64,7 +64,7 @@
                 role="tabpanel"
                 class="tab-panel relative transition-all flow"
             >
-                <h2 class="">{{ item.title | lower }}</h2>
+                <h2 class="hidden md:block">{{ item.title | lower }}</h2>
                 <div class="flow">
                     {{ item.body | safe }}
                 </div>
