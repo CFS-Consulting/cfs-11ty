@@ -11,9 +11,6 @@
         isSelected(id) {
             return this.selectedId === id
         },
-        whichChild(el, parent) {
-            return Array.from(parent.children).indexOf(el) + 1
-        }
     }"
     x-id="['tab']"
     x-show="shown" 
@@ -22,8 +19,10 @@
 >
     <div>
         <p class="italic mb-8">Click on the tabs to learn more about my activities:</p>
-    <!-- Tab list -->
-        <ul 
+        <!-- Tab list -->
+        <!-- Looping through numbers to dynamically generate unique tab ids -->
+        {% set counter = cycler(1, 2, 3, 4) %}
+        <div 
             x-ref="tablist"
             @keydown.right.prevent.stop="$focus.wrap().next()"
             @keydown.home.prevent.stop="$focus.first()"
@@ -35,37 +34,37 @@
             class="tab-list flow"
         >
             {% for item in activities %}
-                <!-- Tab -->
-                <li>
-                    <button 
-                        :id="$id('tab', whichChild($el.parentElement, $refs.tablist))"
-                        @click="select($el.id)"
-                        @mousedown.prevent
-                        @focus="select($el.id)"
-                        type="button" 
-                        :tabindex="isSelected($el.id) ? 0 : -1"
-                        :aria-selected="isSelected($el.id)"
-                        :class="isSelected($el.id) ? 'text-accent-1' : ''"
-                        class="tab-label"
-                        role="tab"
-                    >
-                        {{ item.short_title | lower }}
-                    </button>
-                </li>
+            <!-- Tab -->
+                <button 
+                    :id="$id('tab', {{ counter.next() }})"
+                    @click="select($el.id)"
+                    @mousedown.prevent
+                    @focus="select($el.id)"
+                    type="button" 
+                    :tabindex="isSelected($el.id) ? 0 : -1"
+                    :aria-selected="isSelected($el.id)"
+                    :class="isSelected($el.id) ? 'text-accent-1' : ''"
+                    class="tab-label"
+                    role="tab"
+                >
+                    {{ item.short_title | lower }}
+                </button>
             {% endfor %}
-        </ul>
+        </div>
     </div>
 
     <!-- Panels -->
-    <div role="tabpanels" class="relative">
+    <div class="relative">
+        {% set counter2 = cycler(1, 2, 3, 4) %}
+        {% set counter3 = cycler(1, 2, 3, 4) %}
         {% for item in activities %}
         <!-- Panel -->
             <section
-                x-show="isSelected($id('tab', whichChild($el, $el.parentElement)))"
+                x-show="isSelected($id('tab', {{ counter2.next() }}))"
                 x-transition:enter="ease-out duration-1000"
                 x-transition:enter-start="opacity-0"
                 x-transition:enter-end="opacity-100"
-                :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
+                :aria-labelledby="$id('tab', {{ counter3.next() }})"
                 role="tabpanel"
                 class="tab-panel relative transition-all flow"
             >
