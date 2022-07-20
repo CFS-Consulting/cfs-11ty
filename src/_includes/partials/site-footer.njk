@@ -1,5 +1,14 @@
-<footer class="site-footer">
-    <div class="content-wrapper">
+<footer 
+    x-data="{ shown: false }"
+    x-intersect.full.once="shown = true"
+    class="site-footer"
+>
+    <div 
+        x-show="shown" 
+        x-transition.opacity.duration.1000ms
+        style="display: none;"
+        class="content-wrapper"
+    >
         <a href="/">© {{ site.name | lower }}</a>
         <div class="mt-6 md:mt-0">
             <ul class="colophon | flex space-x-4">

@@ -149,6 +149,12 @@
 	}
 }
 
+.blockquote {
+	font-style: italic;
+	padding-left: 2rem;
+	border-left: 1px solid theme("colors.accent.1");
+}
+
 .contact {
 	padding-top: 6rem;
 	padding-bottom: 16rem;
