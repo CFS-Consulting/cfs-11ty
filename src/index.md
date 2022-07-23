@@ -26,47 +26,9 @@ activities:
     title: Nonprofit Strategy
     summary: I’ve spent most of my career working in nonprofit development,
       operations, and events.
-    text: >-
-      I’ve spent most of my career working in nonprofit development, operations,
-      and events. I love working with small nonprofits to enhance the
-      effectiveness and efficiency of your mission achievement.
-
-
-      Contact me to discuss:
-
-
-      * Evaluations of current practices
-
-      * Establishing and refining your web presence
-
-      * Building an effective communications strategy and mailing list
-
-      * Using free tools to define a donor pipeline
-
-      * Final editing and review of grant applications and reports
-
-
-      A typical consulting partnership will include:
-
-
-      * A free initial call to determine the scope of work and timeline
-
-      * Weekly check-ins and select deep dive co-working sessions
-
-      * Final meeting for a presentation of work and shared reflection time
+    text: <p>I’ve spent most of my career working in nonprofit development, operations, and events. I love working with small nonprofits to enhance the effectiveness and efficiency of your mission achievement.</p><p>Contact me to discuss:</p><ul><li>Evaluations of current practices</li><li>Establishing and refining your web presence</li><li>Building an effective communications strategy and mailing list</li><li>Using free tools to define a donor pipeline</li><li>Final editing and review of grant applications and reports</li></ul><p>A typical consulting partnership will include:</p><ul><li>A free initial call to determine the scope of work and timeline</li><li>Weekly check-ins and select deep dive co-working sessions</li><li>Final meeting for a presentation of work and shared reflection time</li></ul>
 about:
-  text: >-
-    ## about
-
-
-    Hello! I'm Cait (she/her). I'm a yoga facilitator, nonprofit leader, theater artist, and a believer in our communal capacity to imagine and bring about a better world. In all I do, I try to make and hold spaces for people to flourish.
-
-
-    I am currently discerning a call to ministry in the Episcopal Diocese of Los Angeles. I live and work in the Los Angeles metropolitan area, which occupies the unceded lands of the Kizh Gabrieleño and Gabrielino-Tongva peoples.
+  text: <h2>about</h2><p>Hello! I'm Cait (she/her). I'm a yoga facilitator, nonprofit leader, theater artist, and a believer in our communal capacity to imagine and bring about a better world. In all I do, I try to make and hold spaces for people to flourish.</p><p>I am currently discerning a call to ministry in the Episcopal Diocese of Los Angeles. I live and work in the Los Angeles metropolitan area, which occupies the unceded lands of the Kizh Gabrieleño and Gabrielino-Tongva peoples.</p>
 contact:
-  text: |-
-    **contact**
-
-    Get in touch at my [email](mailto:caitlynferencesaunders@gmail.com).
+  text: <h2>contact</h2><p>Get in touch at my <a href="mailto:caitlynferencesaunders@gmail.com">email</a>.</p>
 ---
-

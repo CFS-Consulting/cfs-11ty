@@ -22,14 +22,11 @@ collections:
             name: activities
             widget: list
             fields:
-              - label: Activity
-                name: activity
-                widget: object
-                fields:
-                  - { label: Short Title, name: short_title, widget: string }
-                  - { label: Title, name: title, widget: string }
-                  - { label: Summary, name: summary, widget: text }
-                  - { label: Text, name: text, widget: markdown }
+              - { label: Activity, name: activity, widget: string }
+              - { label: Short Title, name: short_title, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Summary, name: summary, widget: text }
+              - { label: Text, name: text, widget: markdown }
           - label: About
             name: about
             widget: object
