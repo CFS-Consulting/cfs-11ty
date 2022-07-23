@@ -10,7 +10,7 @@ collections:
     files:
       - label: Home Page
         name: homepage
-        file: src/index.njk
+        file: src/index.md
         fields:
           - label: Intro
             name: intro
