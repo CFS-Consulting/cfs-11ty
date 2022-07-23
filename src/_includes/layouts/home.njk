@@ -15,7 +15,7 @@
             <img 
                 x-show="shown"
                 x-transition:enter="transition-all ease-out duration-1000"
-                x-transition:enter-start="opacity-0 rotate-45"
+                x-transition:enter-start="opacity-0 -rotate-45"
                 x-transition:enter-end="opacity-20 rotate-0"
                 src="/assets/chain-stitch-loop-dark.svg" 
                 alt=""
@@ -93,7 +93,7 @@
             style="display: none;"
             class="flow"
         >
-            {{ about.body | safe }}
+            {{ about.text | safe }}
         </div>
     </div>
 </article>
@@ -107,7 +107,7 @@
         class="content-wrapper | md:mb-32"
     >
         <div class="flow">
-            {{ contact.body | safe }}
+            {{ contact.text | safe }}
         </div>
         <form
             action="https://buttondown.email/api/emails/embed-subscribe/caitferencesaunders"
