@@ -1,7 +1,27 @@
 {
 	"name": "Caitlyn Ference-Saunders",
+	"subtitle": "Curious. Contemplative. Collaborative.",
 	"metaTitle": "Site for Caitlyn Ference-Saunders",
 	"metaDescription": "Cait is a yoga facilitator, nonprofit leader, theater artist, and a believer in our communal capacity to imagine and bring about a better world.",
+	"openGraphImage": "",
 	"url": "https://caitlynferencesaunders.com",
-	"favicon": "/assets/chain-stitch-loop-dark.svg"
+	"favicon": "/assets/chain-stitch-loop-dark.svg",
+	"socialLinks": [
+		{
+			"name": "Instagram",
+			"url": "https://www.instagram.com/caitmsaunders/",
+			"icon": "instagram"
+		},
+		{
+			"name": "LinkedIn",
+			"url": "https://www.linkedin.com/in/caitlyn-ference-saunders-9a440a25",
+			"icon": "linkedin"
+		}
+	],
+	"colophon": {
+		"headings": "Adorn Roman",
+		"body": "Brevia",
+		"designer": "Daniel Saunders",
+		"designerLink": "https://www.danielsaunders.xyz/"
+	}
 }

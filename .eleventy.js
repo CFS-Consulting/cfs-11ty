@@ -13,6 +13,22 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("./src/styles/site.css");
 	eleventyConfig.addWatchTarget("./tailwind.config.js");
 
+	eleventyConfig.addCollection("sections", function (collectionApi) {
+		return collectionApi.getFilteredByGlob("./src/sections/*.md");
+	});
+
+	eleventyConfig.addCollection("activities", function (collectionApi) {
+		return collectionApi
+			.getFilteredByGlob("./src/activities/*.md")
+			.sort((a, b) => b.data.order - a.data.order);
+	});
+
+	eleventyConfig.addCollection("sliderImages", function (collectionApi) {
+		return collectionApi
+			.getFilteredByGlob("./src/slider-images/*.md")
+			.sort((a, b) => b.data.order - a.data.order);
+	})
+
 	return {
 		markdownTemplateEngine: "njk",
 		dataTemplateEngine: "njk",

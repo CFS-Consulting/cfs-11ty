@@ -5,38 +5,28 @@ media_folder: src/assets
 public_folder: /assets
 
 collections:
-  - label: Content
-    name: content
-    files:
-      - label: Home Page
-        name: homepage
-        file: src/index.md
-        fields:
-          - label: Intro
-            name: intro
-            widget: object
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Subtitle, name: subtitle, widget: string }
-          - label: Activities
-            name: activities
-            widget: list
-            fields:
-              - { label: Activity, name: activity, widget: string }
-              - { label: Short Title, name: short_title, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Summary, name: summary, widget: text }
-              - { label: Text, name: text, widget: markdown }
-          - label: About
-            name: about
-            widget: object
-            fields:
-              - { label: Text, name: text, widget: markdown }
-          - label: Contact
-            name: contact
-            widget: object
-            fields:
-              - { label: Text, name: text, widget: markdown }
+  - label: Sections
+    name: sections
+    folder: src/sections
+    create: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Contact Message, name: contactMessage, widget: text }
+  - label: Activities
+    name: activities
+    folder: src/activities
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Short Title, name: shortTitle, widget: string, description: Use lower case, one word. }
+      - { label: Summary, name: summary, widget: text, description: One sentence summary for SEO. }
+      - { label: Order, name: order, widget: number }
+  - label: Slider Images
+    name: sliderImages
+    folder: src/slider-images
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Image, name: img, widget: image }
+      - { label: Order, name: order, widget: number }
   - label: Settings
     name: settings
     files:
@@ -45,7 +35,33 @@ collections:
         file: src/_data/site.json
         fields:
           - { label: Site Name, name: name, widget: string }
+          - { label: Site Tagline, name: subtitle, widget: string }
           - { label: Meta Title, name: metaTitle, widget: string }
           - { label: Meta Description, name: metaDescription, widget: text }
+          - { label: Open Graph Image, name: openGraphImage, widget: image }
           - { label: Canonical URL, name: url, widget: string }
           - { label: Favicon, name: favicon, widget: image }
+          - label: Social Links
+            name: socialLinks
+            widget: list
+            fields:
+              - { label: App Name, name: name, widget: string }
+              - { label: Profile Link, name: url, widget: string }
+              - { label: Icon Name, name: icon, widget: string, description: Lower case app name }
+          - label: Colophon
+            name: colophon
+            widget: object
+            fields:
+              - { label: Headings Font, name: headings, widget: string }
+              - { label: Body Font, name: body, widget: string }
+              - { label: Designer Name, name: designer, widget: string }
+              - { label: Designer Link, name: designerLink, widget: string }
+      - label: Navigation
+        name: navigation
+        file: src/_data/navigation.json
+        fields:
+          - label: Items
+            name: items
+            widget: object
+            fields:
+              - { label: Title, name: name, widget: string }

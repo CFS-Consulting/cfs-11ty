@@ -29,7 +29,7 @@
                 style="display: none;"
                 class="relative"
             >
-                {{ intro.title | lower }}
+                {{ site.name | lower }}
             </h1>
         </div>
         
@@ -41,7 +41,7 @@
             style="display: none;"
             class="italic"
         >
-            {{ intro.subtitle }}
+            {{ site.subtitle }}
         </p>
         
     </div>
@@ -60,8 +60,8 @@
 <div 
     x-data="{ shown: false }"
     x-intersect.half.once="shown = true" 
-    id="activities" 
-    class="pt-32 lg:pt-52 pb-32 lg:pb-12 bg-primary"
+    id="{{ navigation.items[0].name | slugify }}" 
+    class="pt-32 lg:pt-52 pb-32 lg:pb-0 bg-primary"
 >
     <div class="content-wrapper">
         {% include "partials/activities-tabs.njk"%}
@@ -71,7 +71,7 @@
 <!-- About section -->
 <article 
     x-data="{ shown: false }"
-    id="about" 
+    id="{{ navigation.items[1].name | slugify }}" 
     class="about | relative -top-[1px]"
 >
     <div 
@@ -87,27 +87,36 @@
         x-intersect.half.once="shown = true" 
         class="content-wrapper"
     >
+        {% include "partials/glider.njk" %}
         <div         
             x-show="shown" 
             x-transition.opacity.duration.1000ms
             style="display: none;"
             class="flow"
         >
-            {{ about.text | safe }}
+            {% for section in collections.sections %}
+                {% if section.data.title == "about" %}
+                    {{ section.templateContent | safe }}
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
 </article>
 
 <!-- Contact section -->
 <div 
-    id="contact" 
+    id="{{ navigation.items[2].name | slugify }}" 
     class="contact"
 >
     <div 
         class="content-wrapper | md:mb-32"
     >
         <div class="flow">
-            {{ contact.text | safe }}
+            {% for section in collections.sections %}
+                {% if section.data.title == "contact" %}
+                    {{ section.templateContent | safe }}
+                {% endif %}
+            {% endfor %}
         </div>
         <form
             action="https://buttondown.email/api/emails/embed-subscribe/caitferencesaunders"

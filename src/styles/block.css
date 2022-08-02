@@ -120,6 +120,10 @@
 			--fluid-type-max: 2.5rem;
 		}
 
+		h3 {
+			@apply text-3xl;
+		}
+
 		a {
 			background-color: theme("colors.primary.dark" / 20%);
 			padding: 0.25rem 0.5rem;
@@ -133,6 +137,12 @@
 		ul {
 			list-style: circle;
 			padding-left: 1.5rem;
+		}
+
+		blockquote {
+			font-style: italic;
+			padding-left: 2rem;
+			border-left: 1px solid theme("colors.accent.1");
 		}
 	}
 }
