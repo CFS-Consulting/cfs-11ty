@@ -5,7 +5,7 @@ summary: he body is the site of our lived experiences, of oppression and privile
 order: 1
 ---
 
-## {{ title | lower }}
+## yoga
 
 The body is the site of our lived experiences, of oppression and privilege, of trauma and healing, of growth and self-affirmation.
 

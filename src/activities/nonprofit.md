@@ -5,7 +5,7 @@ summary: I’ve spent most of my career working in nonprofit development, operat
 order: 4
 ---
 
-## {{ title | lower }}
+## nonprofit strategy
 
 I’ve spent most of my career working in nonprofit development, operations, and events. I love working with small nonprofits to enhance the effectiveness and efficiency of your mission achievement.
 

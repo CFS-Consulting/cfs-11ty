@@ -5,7 +5,7 @@ summary: I currently serve as the lay officiant for the monthly Compline service
 order: 3
 ---
 
-## {{ title | lower }}
+## faith spaces
 
 I currently serve as the lay officiant for the [monthly Compline service](https://www.stjohnsla.org/) at St. John’s Cathedral (Los Angeles). Join us for this 30 minute candlelit service led by the Schola Cantorum.
 

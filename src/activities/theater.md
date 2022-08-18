@@ -5,7 +5,7 @@ summary: As an individual and collaborative artist I work to level hierarchies a
 order: 2
 ---
 
-## {{ title | lower }}
+## theater work
 
 As an individual and collaborative artist I work to level hierarchies and bring to light moments of tension that hold the possibility for change and growth. I use a combination of movement techniques guided by the Six Viewpoints (Mary Overlie) and interrogative game-play organized (Boal) to foster shared meaning-making with an audience.
 
