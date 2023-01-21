@@ -7,11 +7,12 @@ order: 4
 
 ## nonprofit strategy
 
-I’ve spent most of my career working in nonprofit development, operations, and events. I love working with small nonprofits to enhance the effectiveness and efficiency of your mission achievement.
+I’ve spent most of my career working in nonprofit development, operations, and events. I love working with small nonprofits to enhance mission achievement.
 
 Contact me to discuss:
 
-- Evaluations of current practices
+- Designing, implementing, and assessing a strategic plan
+- Evaluating current practices for efficacy and worker retention
 - Establishing and refining your web presence
 - Building an effective communications strategy and mailing list
 - Using free tools to define a donor pipeline
