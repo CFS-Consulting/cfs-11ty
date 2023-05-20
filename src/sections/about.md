@@ -4,6 +4,6 @@ title: about
 
 ## {{ title }}
 
-Hello! I'm Cait (she/her). I'm a yoga facilitator, nonprofit leader, theater artist, and a believer in our communal capacity to imagine and bring about a better world. In all I do, I try to make and hold spaces for people to flourish.
+Hi, I'm Cait. I'm a TCTSY facilitator, RYT-200, community storyteller, and survivor of a high-control religious group. In all I do, I try to make and hold spaces for people to flourish.
 
-I am currently discerning a call to ministry in the Episcopal Diocese of Los Angeles. I live and work in the Los Angeles metropolitan area, which occupies the unceded lands of the Kizh Gabrieleño and Gabrielino-Tongva peoples.
+I live and work in the Los Angeles metropolitan area, which occupies the unceded lands of the Kizh Gabrieleño and Gabrielino-Tongva peoples. I work in-person and virtually at this time.
