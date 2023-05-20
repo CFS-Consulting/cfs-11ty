@@ -1,12 +1,15 @@
 ---
-title: Faith Spaces
-shortTitle: faith
+title: moving dialogue
+shortTitle: moving dialogue
 summary: I currently serve as the lay officiant for the monthly Compline service at St. John’s Cathedral (Los Angeles).
 order: 3
 ---
 
-## faith spaces
+## moving dialogue
 
-I currently serve as the lay officiant for the [monthly Compline service](https://www.stjohnsla.org/) at St. John’s Cathedral (Los Angeles). Join us for this 30 minute candlelit service led by the Schola Cantorum.
+### For Groups
 
-As a person of faith it is important to me to co-create worship spaces that can address and make room for the healing of spiritual/religious trauma. I believe that the Christian tradition has historically been both an agent and opponent of white supremacy, Christian nationalism, and transnational capitalism. I firmly believe that the church is most useful and beautiful when, following our saints, we add our voices to the many that call for global liberation and healing.
+I use a combination of movement techniques guided by the Six Viewpoints (Mary Overlie & Anne Bogart) and interrogative game-play (Augusto Boal) to foster shared meaning-making with your group. The anti-hierarchical knowledge from Viewpoints and physical insights from Boal help us all to listen for the unheard and find new narratives together. Moving Dialogue does not require any experience with body-based practices and can be created with people of all abilities.
+
+[Contact me to learn more](/#contact) about what a Moving Dialogue group can do for your community.
+

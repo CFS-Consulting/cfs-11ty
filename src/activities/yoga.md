@@ -1,17 +1,17 @@
 ---
 title: Yoga Facilitation
 shortTitle: yoga
-summary: he body is the site of our lived experiences, of oppression and privilege, of trauma and healing, of growth and self-affirmation.
+summary: The body is the site of our lived experiences, of oppression and privilege, of trauma and healing, of growth and self-affirmation.
 order: 1
 ---
 
 ## yoga
 
-The body is the site of our lived experiences, of oppression and privilege, of trauma and healing, of growth and self-affirmation.
+### For Individuals and Groups
 
-Since 2002, my mat has often been the safest place I had, where I could be fully myself. I began teaching (RYT-200, Yogaworks NYC) in 2011. I strive to support moving bodies and facilitate each student’s unique capabilities and growth goals. I’ve taught in studios, gyms, community centers, places of worship, and in private homes.
+Since 2002, my mat has often been the safest place I had, where I could be fully myself. I began teaching (RYT-200, Yogaworks NYC) in 2011. In my yoga sessions I focus on building attunement with your own body to support each student’s unique capabilities and growth goals. I’ve taught in studios, gyms, community centers, places of worship, and in private homes.
 
-As of Fall 2022, I will be training as a TCTSY-F (Trauma Center Trauma-Sensitive Yoga facilitator) through the [Center for Trauma and Embodiment](https://www.traumasensitiveyoga.com/). I incorporate the core principles (invitational language, choice-making, non-coercion interoception, & shared authentic experience) into both my regular teaching and into designated trauma-informed classes.
+[Sign-up](/#contact) for online sessions.
 
 ### testimonial
 

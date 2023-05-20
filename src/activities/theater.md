@@ -1,12 +1,19 @@
 ---
-title: Theater Work
-shortTitle: theater
+title: TCTSY Facilitation
+shortTitle: tctsy
 summary: As an individual and collaborative artist I work to level hierarchies and bring to light moments of tension that hold the possibility for change and growth.
 order: 2
 ---
 
-## theater work
+## tctsy facilitation
 
-As an individual and collaborative artist I work to level hierarchies and bring to light moments of tension that hold the possibility for change and growth. I use a combination of movement techniques guided by the Six Viewpoints (Mary Overlie) and interrogative game-play organized (Boal) to foster shared meaning-making with an audience.
+### For Individuals and Groups
 
-I am a cofounder of Icara (2014), a women’s ensemble committed to creating original theater, through long-distance, process-oriented collaboration. We confront injustice by telling women's stories wherever we find them. Along with cofounder Napthali Fields-Forbes, Icara cultivates brave spaces for female-identified, non-binary, and gender-queer artists.
+In 2023, I was certified as a RYT-500 TCTSY-F (Trauma Center Trauma-Sensitive Yoga Facilitator) through the [Center for Trauma and Embodiment](https://jri.org/services/behavioral-health-and-trauma/center-for-trauma-and-embodiment). I incorporate the core principles (invitational language, choice-making, non-coercion, interoception, & shared authentic experience) into both my regular teaching and into designated trauma-sensitive classes.
+
+I often support folks navigating religious trauma and/or spiritual abuse and I love working with people who are new to body-based practices. I provide a reliable support for whatever lifework you find yourself in.
+
+I offer two 8-week closed practice groups each year in addition to private one to one facilitation. Contact me to learn more, or to begin a new practice group with your community.
+
+[Contact me to learn more](/#contact)about TCTSY and access a free 15 min TCTSY practice.
+
