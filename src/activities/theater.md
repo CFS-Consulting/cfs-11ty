@@ -7,7 +7,7 @@ order: 2
 
 ## tctsy facilitation
 
-### For Individuals and Groups
+### for individuals and groups
 
 In 2023, I was certified as a RYT-500 TCTSY-F (Trauma Center Trauma-Sensitive Yoga Facilitator) through the [Center for Trauma and Embodiment](https://jri.org/services/behavioral-health-and-trauma/center-for-trauma-and-embodiment). I incorporate the core principles (invitational language, choice-making, non-coercion, interoception, & shared authentic experience) into both my regular teaching and into designated trauma-sensitive classes.
 

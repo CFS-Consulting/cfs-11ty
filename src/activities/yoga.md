@@ -7,11 +7,11 @@ order: 1
 
 ## yoga
 
-### For Individuals and Groups
+### for individuals and groups
 
 Since 2002, my mat has often been the safest place I had, where I could be fully myself. I began teaching (RYT-200, Yogaworks NYC) in 2011. In my yoga sessions I focus on building attunement with your own body to support each student’s unique capabilities and growth goals. I’ve taught in studios, gyms, community centers, places of worship, and in private homes.
 
-[Sign-up](/#contact) for online sessions.
+[Contact me to sign-up](/#contact) for online sessions.
 
 ### testimonial
 
