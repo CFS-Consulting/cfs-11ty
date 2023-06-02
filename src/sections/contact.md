@@ -6,3 +6,4 @@ contactMessage: "If you’d like to get the occasional update on my class offeri
 ## {{ title }}
 
 Get in touch at my [email](caitlynferencesaunders@gmail.com).
+[Sign up](http://eepurl.com/sessionup) for general movement opportunities or to be notified when the next 8-week TCTSY session opens up.
