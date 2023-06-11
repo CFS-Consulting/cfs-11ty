@@ -47,7 +47,7 @@
                     class="tab-label"
                     role="tab"
                 >
-                    {{ item.data.shortTitle | lower }}
+                    {{ item.data.buttonTitle | lower }}
                 </button>
             {% endfor %}
         </div>
@@ -69,7 +69,7 @@
                 class="tab-panel relative transition-all flow"
             >
                 <h2 class="hidden md:block">{{ item.title | lower }}</h2>
-                <div class="flow">
+                <div class="flow tab-content" style="--flow-space: 1.5rem;">
                     {{ item.templateContent | safe }}
                 </div>
             </section>

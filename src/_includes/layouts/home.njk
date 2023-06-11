@@ -85,14 +85,17 @@
     </div>
     <div 
         x-intersect.half.once="shown = true" 
-        class="content-wrapper"
+        class="content-wrapper grid grid-cols-1 md:grid-cols-3 gap-16 items-center mt-12 md:mt-24"
     >
-        {% include "partials/glider.njk" %}
+        <div class="flex justify-center items-center max-w-[17rem] w-full h-auto aspect-square overflow-hidden rounded-full md:justify-self-center">
+            <img src="/assets/slider/yoga.webp" alt="Caitlyn practicing a yoga pose on a wooded path." class="h-full w-full object-cover">
+        </div>
+        {# {% include "partials/glider.njk" %} #}
         <div         
             x-show="shown" 
             x-transition.opacity.duration.1000ms
-            style="display: none;"
-            class="flow"
+            style="display: none; --flow-space: 1.25rem;"
+            class="flow md:col-span-2"
         >
             {% for section in collections.sections %}
                 {% if section.data.title == "about" %}
@@ -111,14 +114,14 @@
     <div 
         class="content-wrapper | md:mb-32"
     >
-        <div class="flow">
+        <div class="flow" style="--flow-space: 1.25rem;">
             {% for section in collections.sections %}
                 {% if section.data.title == "contact" %}
                     {{ section.templateContent | safe }}
                 {% endif %}
             {% endfor %}
         </div>
-        <form
+        {# <form
             action="https://buttondown.email/api/emails/embed-subscribe/caitferencesaunders"
             method="post"
             target="popupwindow"
@@ -130,7 +133,7 @@
                 <input type="email" name="email" placeholder="email@example.com" id="bd-email" class="p-2 rounded-md shadow-md inline-block content" />
             </div>
             <input type="submit" value="Subscribe" class="submit-button cursor-pointer" />
-        </form>
+        </form> #}
     </div>
 </div>
 <div class="py-12"></div>

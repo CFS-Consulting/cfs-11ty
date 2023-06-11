@@ -1,7 +1,6 @@
 ---
 title: Yoga Facilitation
-shortTitle: yoga
-summary: The body is the site of our lived experiences, of oppression and privilege, of trauma and healing, of growth and self-affirmation.
+buttonTitle: yoga
 order: 1
 ---
 

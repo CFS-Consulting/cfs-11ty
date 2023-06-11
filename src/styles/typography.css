@@ -2,19 +2,19 @@
 TYPOGRAPHY
 ////////////// */
 body {
-	font-family: theme("fontFamily.body");
-	line-height: 1.5;
-	color: theme("colors.primary.DEFAULT");
-	background-color: theme("colors.primary.light");
+  font-family: theme("fontFamily.body");
+  line-height: 1.5;
+  color: theme("colors.primary.DEFAULT");
+  background-color: theme("colors.primary.light");
 }
 
 /* Piccalilli: Fluid typography with CSS clamp, https://piccalil.li/tutorial/fluid-typography-with-css-clamp/ */
 /* Font Family & Weight */
 
 h1 {
-	font-family: theme("fontFamily.header");
-	line-height: 0.9;
-	font-weight: 400;
+  font-family: theme("fontFamily.header");
+  line-height: 0.9;
+  font-weight: 400;
 }
 
 h2,
@@ -22,37 +22,37 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: theme("fontFamily.header");
-	line-height: 1.1;
+  font-family: theme("fontFamily.header");
+  line-height: 1.1;
 }
 
 /* Dynamic Sizing */
 h1,
 .page-title {
-	--fluid-type-min: 2.5rem;
-	--fluid-type-max: 5rem;
-	--fluid-type-target: 5vw;
+  --fluid-type-min: 2.5rem;
+  --fluid-type-max: 5rem;
+  --fluid-type-target: 5vw;
 }
 
 h2 {
-	--fluid-type-min: 1.8rem;
-	--fluid-type-max: 3rem;
+  --fluid-type-min: 1.8rem;
+  --fluid-type-max: 3rem;
 }
 
 h3 {
-	--fluid-type-min: 1.5rem;
-	--fluid-type-max: 2.5rem;
+  --fluid-type-min: 1.5rem;
+  --fluid-type-max: 2.5rem;
 }
 
 h2,
 h3 {
-	max-width: 30ch;
+  max-width: 30ch;
 }
 
 p {
-	--fluid-type-min: 1rem;
-	--fluid-type-max: 1.15rem;
-	max-width: 66ch;
+  --fluid-type-min: 1rem;
+  --fluid-type-max: 1.15rem;
+  max-width: 66ch;
 }
 
 h1,
@@ -60,49 +60,49 @@ h2,
 h3,
 p,
 li {
-	font-size: clamp(
-		var(--fluid-type-min, 1rem),
-		calc(1rem + var(--fluid-type-target, 3vw)),
-		var(--fluid-type-max, 1.2rem)
-	);
+  font-size: clamp(
+    var(--fluid-type-min, 1rem),
+    calc(1rem + var(--fluid-type-target, 3vw)),
+    var(--fluid-type-max, 1.2rem)
+  );
 }
 
 /* Other typography styles */
 a,
 .submit-button {
-	text-transform: uppercase;
-	font-size: smaller;
-	letter-spacing: 0.1em;
-	background-color: theme("colors.primary.DEFAULT" / 10%);
-	padding: 0.5rem 0.8rem;
-	border-radius: 0.5rem;
-	transition: background-color 200ms;
+  text-transform: uppercase;
+  font-size: smaller;
+  letter-spacing: 0.1em;
+  background-color: theme("colors.primary.DEFAULT" / 10%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 200ms;
 
-	&:hover {
-		background-color: theme("colors.primary.DEFAULT" / 20%);
-	}
+  &:hover {
+    background-color: theme("colors.primary.DEFAULT" / 20%);
+  }
 }
 
 .submit-button {
-	background-color: theme("colors.primary.DEFAULT");
-	color: theme("colors.primary.light");
-	max-width: fit-content;
+  background-color: theme("colors.primary.DEFAULT");
+  color: theme("colors.primary.light");
+  max-width: fit-content;
 
-	&:hover {
-		background-color: theme("colors.primary.DEFAULT" / 80%);
-	}
+  &:hover {
+    background-color: theme("colors.primary.DEFAULT" / 80%);
+  }
 }
 
 .colophon {
-	li {
-		font-size: small;
-	}
+  li {
+    font-size: small;
+  }
 
-	a {
-		font-size: small;
-		letter-spacing: normal;
-		text-transform: none;
-		padding: 0;
-		background-color: transparent;
-	}
+  a {
+    font-size: small;
+    letter-spacing: normal;
+    text-transform: none;
+    padding: 0;
+    background-color: transparent;
+  }
 }
