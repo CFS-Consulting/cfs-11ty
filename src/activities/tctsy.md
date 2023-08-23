@@ -14,4 +14,4 @@ I often support folks navigating religious trauma and/or spiritual abuse and I l
 
 I offer two 8-week closed practice groups each year in addition to private one to one facilitation. Contact me to learn more, or to begin a new practice group with your community.
 
-[Contact me to learn more](/#contact) about TCTSY and access a free 15 min TCTSY practice.
+[Contact me to learn more](/#contact) about TCTSY.
